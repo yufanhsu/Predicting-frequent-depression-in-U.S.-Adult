@@ -14,7 +14,7 @@ Download the NHIS Sample Adult public-use CSV files for 2022, 2023, and 2024 fro
 ```text
 adult22.csv
 adult23.csv
-adult24.csv   # or adult24(1).csv
+adult24.csv
 ```
 
 Do not commit raw NHIS CSV files to a public GitHub repository. The `.gitignore` file excludes them.
