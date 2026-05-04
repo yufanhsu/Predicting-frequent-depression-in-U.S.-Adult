@@ -1,0 +1,28 @@
+                  Generalized Linear Model Regression Results                  
+===============================================================================
+Dep. Variable:     frequent_depression   No. Observations:                64368
+Model:                             GLM   Df Residuals:                    64355
+Model Family:                 Binomial   Df Model:                           12
+Link Function:                   Logit   Scale:                          1.0000
+Method:                           IRLS   Log-Likelihood:                -23219.
+Date:                 Fri, 01 May 2026   Deviance:                       46438.
+Time:                         12:55:40   Pearson chi2:                 6.44e+04
+No. Iterations:                      5   Pseudo R-squ. (CS):            0.03891
+Covariance Type:             nonrobust                                         
+====================================================================================================================================================
+                                                                                       coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                           -0.6734      0.053    -12.762      0.000      -0.777      -0.570
+C(barrier_count_factor)[T.1]                                                         0.4472      0.100      4.484      0.000       0.252       0.643
+C(barrier_count_factor)[T.2]                                                         0.5394      0.105      5.126      0.000       0.333       0.746
+C(barrier_count_factor)[T.3]                                                         1.0885      0.092     11.871      0.000       0.909       1.268
+C(mh_cost_barrier_label)[T.No MH care cost barrier]                                 -1.4255      0.047    -30.284      0.000      -1.518      -1.333
+C(survey_year)[T.2023]                                                              -0.0756      0.030     -2.551      0.011      -0.134      -0.018
+C(survey_year)[T.2024]                                                              -0.1788      0.030     -5.984      0.000      -0.237      -0.120
+C(interview_quarter)[T.Q2]                                                          -0.0196      0.035     -0.565      0.572      -0.088       0.049
+C(interview_quarter)[T.Q3]                                                          -0.0280      0.035     -0.809      0.419      -0.096       0.040
+C(interview_quarter)[T.Q4]                                                           0.0394      0.034      1.154      0.249      -0.028       0.106
+C(barrier_count_factor)[T.1]:C(mh_cost_barrier_label)[T.No MH care cost barrier]     0.3780      0.113      3.332      0.001       0.156       0.600
+C(barrier_count_factor)[T.2]:C(mh_cost_barrier_label)[T.No MH care cost barrier]     0.3986      0.127      3.149      0.002       0.151       0.647
+C(barrier_count_factor)[T.3]:C(mh_cost_barrier_label)[T.No MH care cost barrier]    -0.0050      0.117     -0.043      0.966      -0.234       0.224
+====================================================================================================================================================
