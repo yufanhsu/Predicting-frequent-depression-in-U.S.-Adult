@@ -22,7 +22,7 @@ Do not commit raw NHIS CSV files to a public GitHub repository. The `.gitignore`
 ## Main script
 
 ```bash
-python nhis_capstone_pipeline.py
+capstone pipeline.py
 ```
 
 ## Python environment
